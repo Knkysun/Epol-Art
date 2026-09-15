@@ -239,4 +239,47 @@ footer {
 .dropdown:hover .dropdown-menu {
     display: flex;
 }
+/* Affichage au survol */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+:root {
+    --bleu-profond: #003f5c;
+    --bleu-pastel: #dff2ff;
+    --ocre-terre: #c97b3b;
+    --vert-doux: #4b7f52;
+    --blanc-casse: #f9f9f9;
+}
+section, .domaines, .galerie-domaines {
+    padding: 50px 20px;
+}
+.carte-domaine {
+    margin: 20px;
+}
+.domaines-cartes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.carte-domaine {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+.btn {
+    background-color: var(--bleu-profond);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--vert-doux);
+}
+.carte-domaine h3 {
+    color: var(--bleu-profond);
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.domaines, .galerie-domaines, .section {
+    background: var(--bleu-pastel);
+    border-radius: 12px;
+}
 
