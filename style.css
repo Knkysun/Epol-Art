@@ -162,3 +162,24 @@ footer {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-weight: bold;
 }
+/* --- BOUTON RETOUR A L'ACCUEIL --- */
+
+.retour-accueil {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-retour {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-retour:hover {
+    background: #0055aa;
+}
