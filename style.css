@@ -131,3 +131,13 @@ footer {
     background: #0055aa;
     color: white;
 }
+/* --- SLOGAN SOUS LE LOGO --- */
+
+.slogan-header {
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
