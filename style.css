@@ -179,3 +179,67 @@ footer {
     font-weight: bold;
     transition: 0.3s;
 }
+/* --- MENU DÉROULANT TRANSLUCIDE --- */
+
+.menu-translucide {
+    background: rgba(21, 31, 30, 0.55); /* ton vert-noir #151F1E en translucide */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.menu-translucide ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu-translucide a {
+    color: #EDE599; /* ton jaune clair */
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-translucide a:hover {
+    color: #C7A003; /* ton jaune doré */
+}
+
+/* --- DROPDOWN --- */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: rgba(21, 31, 30, 0.75); /* translucide plus fort */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 10px 0;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    color: #EDE599;
+}
+
+.dropdown-menu li a:hover {
+    color: #C7A003;
+}
+
+/* Affichage au survol */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
