@@ -6,7 +6,29 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #333;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
 
+    /* Voile translucide */
+    background: rgba(255, 255, 255, 0.15);
+
+    /* Effet vitre + pluie */
+    backdrop-filter: blur(4px) saturate(120%);
+    -webkit-backdrop-filter: blur(4px) saturate(120%);
+
+    /* Texture pluie / gouttelettes */
+    background-image: url("https://www.transparenttextures.com/patterns/transparent-rain.png");
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+body * {
+    position: relative;
+    z-index: 1;
 }
 
 header {
