@@ -84,11 +84,10 @@ footer {
 }
 
 /* --- HEADER STYLE AFFICHE --- */
-
 .header-affiche {
     text-align: center;
     padding: 40px 20px;
-    background: #003366; /* bleu profond */
+    background: transparent;
     color: white;
 }
 
