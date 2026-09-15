@@ -87,3 +87,47 @@ footer {
     background: #0055aa;
 }
 
+/* --- HEADER STYLE AFFICHE --- */
+
+.header-affiche {
+    text-align: center;
+    padding: 40px 20px;
+    background: #003366; /* bleu profond */
+    color: white;
+}
+
+/* Logo */
+.logo-affiche {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Phrase de bienvenue */
+.bienvenue {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Menu boutons */
+.menu-affiche {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-menu {
+    background: white;
+    color: #003366;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-menu:hover {
+    background: #0055aa;
+    color: white;
+}
