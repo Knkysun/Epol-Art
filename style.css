@@ -58,11 +58,12 @@ header {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 .bienvenue {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+    color: #ffffff; /* blanc pur */
+    text-shadow: 0 0 10px rgba(0,0,0,0.45); /* ombre douce */
 }
 
 /* --- MENU --- */
