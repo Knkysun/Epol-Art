@@ -280,8 +280,11 @@ footer {
 .phrase-saumon {
     color: #B33939; /* rouge sombre profond */
     font-weight: bold;
-    text-shadow:
+
+    /* ombre portée vers l'arrière */
+    text-shadow: 0px 4px 6px rgba(0,0,0,0.45);
 }
+
 
 
 
