@@ -9,7 +9,8 @@
 }
 
 header {
-    background: #003366;
+    header {
+    background: transparent;
     color: white;
     padding: 20px;
     text-align: center;
