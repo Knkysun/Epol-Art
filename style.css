@@ -278,7 +278,7 @@ footer {
     background: rgba(0, 85, 170, 0.85);
 }
 .phrase-saumon {
-    color: #16697A; /* turquoise profond intense */
+    color: #0E4F5A; /* turquoise très profond */
     font-weight: bold;
     font-size: 20px;
 
@@ -288,7 +288,6 @@ footer {
         0px  1px 2px rgba(255,255,255,0.4), /* reflet blanc en bas */
         0px  4px 6px rgba(0,0,0,0.45);      /* ombre portée vers l'arrière */
 }
-
 
 
 
