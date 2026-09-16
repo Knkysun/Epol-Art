@@ -12,7 +12,7 @@ body {
     color: #333;
 }
 
-/* --- VOILE PLUIE SUR VITRE --- */
+/* --- VOILE PLUIE LÉGER --- */
 
 body::before {
     content: "";
@@ -23,8 +23,8 @@ body::before {
     background: rgba(255, 255, 255, 0.05);
 
     /* Effet vitre + pluie */
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 
     background-image: url("https://www.transparenttextures.com/patterns/transparent-rain.png");
 
@@ -32,7 +32,7 @@ body::before {
     z-index: 0;
 }
 
-/* Tout le contenu passe au-dessus du voile */
+/* Le contenu passe au-dessus du voile */
 body * {
     position: relative;
     z-index: 1;
@@ -41,7 +41,7 @@ body * {
 /* --- HEADER --- */
 
 header {
-    background: transparent; /* IMPORTANT pour voir le fond */
+    background: transparent; /* IMPORTANT */
     color: white;
     padding: 20px;
     text-align: center;
@@ -78,8 +78,8 @@ header {
 
 .btn-menu {
     background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     color: #003366;
     padding: 10px 20px;
     border-radius: 8px;
@@ -99,9 +99,9 @@ header {
     padding: 40px;
     text-align: center;
 
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 12px;
     margin: 20px;
 }
@@ -113,8 +113,8 @@ header {
     text-align: center;
 
     background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 12px;
     margin: 20px;
 }
@@ -129,8 +129,8 @@ header {
 
 .carte-domaine {
     background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     padding: 25px;
     width: 260px;
     border-radius: 12px;
@@ -153,8 +153,8 @@ header {
 
 .carte {
     background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     padding: 20px;
     width: 150px;
     border-radius: 10px;
@@ -189,5 +189,4 @@ footer {
     margin-top: 40px;
     border-radius: 12px;
 }
-
 
