@@ -1,4 +1,4 @@
-body {
+à labody {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("assets/images/fond-epol.jpg");
@@ -246,5 +246,32 @@ footer {
     display: none;
     flex-direction: column;
     min-width: 200px;
+}
+.carte,
+.carte-domaine,
+.portfolio {
+    background: rgba(220, 235, 255, 0.35); /* bleu pastel translucide */
+    backdrop-filter: blur(6px);            /* effet vitre givrée */
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.4); /* bordure douce */
+    border-radius: 12px;
+}
+.section,
+.galerie-domaines,
+.domaines {
+    background: rgba(220, 235, 255, 0.25); /* bleu pastel très léger */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 12px;
+    padding: 40px;
+}
+.btn,
+.btn-menu,
+.btn-retour {
+    background: rgba(220, 235, 255, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #013328; /* ton vert profond Kanak */
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
