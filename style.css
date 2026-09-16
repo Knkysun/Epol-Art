@@ -110,6 +110,7 @@ header {
     margin-bottom: 20px;
     text-shadow: 0 0 8px rgba(0,0,0,0.35); /* ombre douce */
 }
+
 /* --- DOMAINES --- */
 
 .domaines {
@@ -272,5 +273,10 @@ footer {
 
 .btn-retour:hover {
     background: rgba(0, 85, 170, 0.85);
+}
+.phrase-saumon {
+    color: #FFB7A5; /* saumon doux */
+    font-weight: bold; /* texte en gras */
+    text-shadow: 0 0 6px rgba(0,0,0,0.25); /* ombre douce */
 }
 
