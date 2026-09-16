@@ -278,13 +278,13 @@ footer {
     background: rgba(0, 85, 170, 0.85);
 }
 .phrase-saumon {
-    color: #3F015B; /* violet profond testé */
+    color: #3F015B; /* violet profond */
     font-weight: bold;
     font-size: 20px;
 
-    /* reflets blancs internes + ombre portée */
-    text-shadow:    
-        0px  4px 6px rgba(0,0,0,0.45);      /* ombre portée vers l'arrière */
+    text-shadow:
+        0px -1px 3px rgba(255,255,255,0.7), /* reflet blanc en haut (un peu plus lumineux) */
+        0px  6px 10px rgba(0,0,0,0.55);     /* ombre portée plus forte et plus profonde */
 }
 
 
