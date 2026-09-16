@@ -284,8 +284,7 @@ footer {
 
     /* reflets blancs internes + ombre portée */
     text-shadow:
-        0px -1px 2px rgba(255,255,255,0.6), /* reflet blanc en haut */
-        
+        0px -1px 2px rgba(255,255,255,0.6), /* reflet blanc en haut */     
         0px  4px 6px rgba(0,0,0,0.45);      /* ombre portée vers l'arrière */
 }
 
