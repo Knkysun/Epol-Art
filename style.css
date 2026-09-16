@@ -281,10 +281,6 @@ footer {
     color: #B33939; /* rouge sombre profond */
     font-weight: bold;
     text-shadow:
-        -1px -1px 0 #ffffff,
-         1px -1px 0 #ffffff,
-        -1px  1px 0 #ffffff,
-         1px  1px 0 #ffffff; /* contour blanc */
 }
 
 
