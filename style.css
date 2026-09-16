@@ -122,9 +122,9 @@ header {
     border-radius: 15px;
     margin: 30px;
 }
-
 .domaines h2 {
-    color: #EDE599;
+    color: #FFD966; /* or profond + lumineux */
+    text-shadow: 0 0 8px rgba(0,0,0,0.35); /* ombre douce */
 }
 
 .domaines-cartes {
