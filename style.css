@@ -75,12 +75,12 @@ header {
 }
 
 .btn-menu {
-    background: rgba(255, 255, 255, 0.45); /* blanc givré */
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    color: #003366;
+    background: rgba(0, 51, 102, 0.45); /* bleu profond */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #EDE599; /* jaune Kanak */
     padding: 12px 25px;
-    border-radius: 12px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
