@@ -7,8 +7,8 @@ body {
     /* Image de fond */
     background-image: url("assets/images/fond-epol.jpg");
     background-size: cover;        /* occupe toute la page */
-    background-position: center;   /* centrée */
-    background-repeat: no-repeat;  /* pas de répétition */
+    background-position: center 20px; /* descend légèrement l’image */
+    background-repeat: no-repeat;
     background-attachment: fixed;  /* image fixée */
     color: #ffffff;
 }
