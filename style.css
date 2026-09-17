@@ -22,16 +22,6 @@ body::before {
     position: fixed;
     inset: 0;
 
-    /* Voile pluie + vitre */
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-
-    background-image: url("https://www.transparenttextures.com/patterns/transparent-rain.png");
-
-    pointer-events: none;
-    z-index: 0;
-}
 
 /* Le contenu passe au-dessus du voile */
 body * {
