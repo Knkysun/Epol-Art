@@ -6,11 +6,12 @@ body {
 
     background-image: url("assets/images/fond-epol.jpg");
     background-size: cover;
-    background-position: center -10px; /* remonte l’image */
+    background-position: center -15px; /* remonte l’image de 15px */
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
