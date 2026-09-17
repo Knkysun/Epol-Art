@@ -301,14 +301,17 @@ footer {
         0px 10px 18px rgba(0,0,0,0.70),   /* ombre profonde */
         0px 16px 28px rgba(0,0,0,0.40);   /* ombre diffuse */
 }
-
 .phrase-epolart {
     font-family: 'Montserrat', sans-serif;
-    color: #000;
-    background: rgba(255,255,255,0.85);
-    padding: 12px 18px;
-    border-radius: 10px;
+    color: #000; /* noir propre */
+    font-weight: 600;
+    font-size: 18px; /* taille réduite */
+
+    background: none; /* suppression du fond blanc */
+    padding: 0; /* on enlève l’espace du fond */
+    border-radius: 0; /* plus de cadre */
 }
+
 
 
 
