@@ -292,6 +292,15 @@ footer {
         0px 10px 18px rgba(0,0,0,0.70),   /* ombre profonde */
         0px 16px 28px rgba(0,0,0,0.40);   /* ombre diffuse */
 }
+.phrase-epolart {
+    color: #F2FF8C; /* vert pomme très doré */
+    font-weight: bold;
+    font-size: 22px;
+
+    text-shadow:
+        0px 10px 18px rgba(0,0,0,0.70),   /* ombre profonde */
+        0px 16px 28px rgba(0,0,0,0.40);   /* ombre diffuse */
+}
 
 
 
