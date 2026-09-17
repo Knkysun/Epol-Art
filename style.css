@@ -274,13 +274,23 @@ footer {
     margin: 0 auto 10px;
     transition: transform 0.3s ease;
 }
-
 .logo-domaine:hover {
     transform: scale(1.1);
 }
+
 .slogan-arts {
     color: #D14BA8;
 }
+
+/* Ta phrase longue en fuchsia + ombre */
+.phrase-saumon {
+    color: #D14BA8; /* fuchsia doux */
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 6px 10px rgba(0,0,0,0.55);
+}
+
+
 
 
 
