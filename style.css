@@ -6,7 +6,8 @@ body {
 
     /* Image de fond */
     background-image: url("assets/images/fond-epol.jpg");
-    background-size: cover;
+    background-size: contain;
+background-color: #000; /* optionnel : fond noir autour si l’image ne remplit pas tout */
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
