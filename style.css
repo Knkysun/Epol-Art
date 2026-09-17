@@ -303,14 +303,15 @@ footer {
 }
 .phrase-epolart {
     font-family: 'Montserrat', sans-serif;
-    color: #000; /* noir propre */
+    color: #4A4A4A; /* gris métal */
     font-weight: 600;
     font-size: 18px; /* taille réduite */
 
-    background: none; /* suppression du fond blanc */
-    padding: 0; /* on enlève l’espace du fond */
-    border-radius: 0; /* plus de cadre */
+    background: none; 
+    padding: 0;
+    border-radius: 0;
 }
+
 
 
 
