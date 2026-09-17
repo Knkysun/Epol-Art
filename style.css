@@ -268,6 +268,16 @@ footer {
     text-shadow:
         0px  6px 10px rgba(0,0,0,0.55);     /* ombre portée plus forte et plus profonde */
 }
+.logo-domaine {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+    transition: transform 0.3s ease;
+}
+
+.logo-domaine:hover {
+    transform: scale(1.1);
+}
 
 
 
