@@ -34,7 +34,7 @@ header {
 }
 
 .logo-affiche {
-    width: 160px;
+    width: 340px;
     margin-bottom: 20px;
 }
 
@@ -276,20 +276,6 @@ footer {
 }
 .logo-domaine:hover {
     transform: scale(1.1);
-}
-
-.slogan-arts {
-    color: #D14BA8;
-}
-.logo-affiche {
-    width: 280px;        /* agrandit le logo */
-    display: block;
-    margin: 20px auto;   /* centre le logo */
-    transition: transform 0.3s ease;
-}
-
-.logo-affiche:hover {
-    transform: scale(1.08); /* petit effet élégant */
 }
 
 /* Ta phrase longue en fuchsia + ombre */
