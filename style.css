@@ -281,6 +281,16 @@ footer {
 .slogan-arts {
     color: #D14BA8;
 }
+.logo-affiche {
+    width: 280px;        /* agrandit le logo */
+    display: block;
+    margin: 20px auto;   /* centre le logo */
+    transition: transform 0.3s ease;
+}
+
+.logo-affiche:hover {
+    transform: scale(1.08); /* petit effet élégant */
+}
 
 /* Ta phrase longue en fuchsia + ombre */
 .phrase-saumon {
