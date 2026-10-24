@@ -310,21 +310,21 @@ footer {
     padding: 0;
     border-radius: 0;
 }
-/* --- BANDEAU SUPÉRIEUR PASTEL FONCÉ --- */
+/* --- BANDEAU SUPÉRIEUR FONCÉ (Epol-Art) --- */
 .top-bar {
     background: linear-gradient(90deg,
-        #d98aa8, /* rose pastel foncé */
-        #a67acb, /* violet doux foncé */
-        #7bb4d6, /* bleu ciel foncé */
-        #e3a77c, /* pêche foncé */
-        #8fc9a3  /* vert clair foncé */
+        #3b3f8f, /* violet bleu foncé */
+        #4a2f6d, /* violet profond */
+        #2b6fa3, /* bleu océan foncé */
+        #3c9fb1, /* turquoise profond */
+        #8a3e7a  /* magenta foncé */
     );
     padding: 12px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid rgba(255,255,255,0.4);
+    border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
 /* Champ de recherche */
@@ -336,13 +336,17 @@ footer {
     width: 240px;
     background: #ffffff;
     font-size: 14px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.25); /* ombre un peu plus forte */
+    box-shadow: 0 0 6px rgba(0,0,0,0.35);
 }
 
 /* Menu du bandeau */
+.top-menu {
+    display: flex;
+    gap: 30px; /* espace entre les cellules */
+}
+
 .top-menu a {
-    margin-left: 30px;
-    color: #1A1A1A; /* noir métal */
+    color: #F2FF8C; /* vert pomme doré */
     font-weight: 600;
     text-decoration: none;
     font-size: 16px;
@@ -351,7 +355,6 @@ footer {
 .top-menu a:hover {
     color: #E85CCF; /* fuchsia clair */
 }
-
 
 
 
