@@ -326,6 +326,22 @@ footer {
     font-family: 'Montserrat', sans-serif;
     border-bottom: 2px solid rgba(255,255,255,0.3);
 }
+/* --- BANDEAU SUPÉRIEUR SOMBRE + LETTRES DORÉES --- */
+.top-bar {
+    background: linear-gradient(90deg,
+        #1e1f3f, /* bleu nuit profond */
+        #2a1b3d, /* violet très sombre */
+        #153a55, /* bleu océan foncé */
+        #1b4f57, /* turquoise sombre */
+        #4a1f3f  /* magenta nuit */
+    );
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid rgba(255, 215, 0, 0.35); /* doré léger */
+}
 
 /* Champ de recherche */
 .search-bar {
@@ -336,26 +352,26 @@ footer {
     width: 240px;
     background: #ffffff;
     font-size: 14px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.35);
+    box-shadow: 0 0 8px rgba(0,0,0,0.45);
 }
 
 /* Menu du bandeau */
 .top-menu {
     display: flex;
-    gap: 30px; /* espace entre les cellules */
+    gap: 35px; /* espace entre les cellules */
 }
 
 .top-menu a {
-    color: #F2FF8C; /* vert pomme doré */
-    font-weight: 600;
+    color: #FFD700; /* doré brillant */
+    font-weight: 700;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
+    text-shadow: 0 0 6px rgba(255, 215, 0, 0.6); /* halo doré */
 }
 
 .top-menu a:hover {
-    color: #E85CCF; /* fuchsia clair */
+    color: #F2FF8C; /* doré vert pomme */
 }
-
 
 
 
