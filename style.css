@@ -37,10 +37,6 @@ body * {
     border-bottom: 2px solid rgba(255, 255, 255, 0.25);
     margin-top: 20px; /* espace sous la bannière */
 }
-.header-affiche {
-    margin-top: 20px; /* espace sous la bannière */
-    text-align: center; /* pour centrer le logo et les textes */
-}
 .logo-affiche {
     width: 360px;
     margin-bottom: 20px;
