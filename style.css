@@ -28,14 +28,14 @@ body * {
     display: block;
 }
 /* --- HEADER --- */
-
-header {
+.header-affiche {
     background: rgba(0, 51, 102, 0.45); /* bleu profond translucide */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 40px 20px;
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+    margin-top: 20px; /* espace sous la bannière */
 }
 .header-affiche {
     margin-top: 20px; /* espace sous la bannière */
