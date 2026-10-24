@@ -365,7 +365,7 @@ footer {
     font-weight: 700;
     text-decoration: none;
     font-size: 17px;
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.6); /* halo blanc lumineux */
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.6); /* halo blanc lumineux */
 }
 
 .top-menu a:hover {
