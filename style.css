@@ -354,7 +354,6 @@ footer {
     font-size: 14px;
     box-shadow: 0 0 8px rgba(0,0,0,0.45);
 }
-
 /* Menu du bandeau */
 .top-menu {
     display: flex;
@@ -362,11 +361,11 @@ footer {
 }
 
 .top-menu a {
-    color: #FFD700; /* doré brillant */
+    color: #ffffff; /* blanc pur */
     font-weight: 700;
     text-decoration: none;
     font-size: 17px;
-    text-shadow: 0 0 6px rgba(255, 215, 0, 0.6); /* halo doré */
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.6); /* halo blanc lumineux */
 }
 
 .top-menu a:hover {
