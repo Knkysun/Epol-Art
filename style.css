@@ -310,14 +310,14 @@ footer {
     padding: 0;
     border-radius: 0;
 }
-/* --- BANDEAU SUPÉRIEUR PASTEL MARBRÉ --- */
+/* --- BANDEAU SUPÉRIEUR PASTEL FONCÉ --- */
 .top-bar {
     background: linear-gradient(90deg,
-        #f7b7d2, /* rose pastel */
-        #c9a4e8, /* violet doux */
-        #a8d8f0, /* bleu ciel pastel */
-        #f6c9a1, /* pêche */
-        #b8e8c6  /* vert clair */
+        #d98aa8, /* rose pastel foncé */
+        #a67acb, /* violet doux foncé */
+        #7bb4d6, /* bleu ciel foncé */
+        #e3a77c, /* pêche foncé */
+        #8fc9a3  /* vert clair foncé */
     );
     padding: 12px 25px;
     display: flex;
@@ -336,7 +336,7 @@ footer {
     width: 240px;
     background: #ffffff;
     font-size: 14px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    box-shadow: 0 0 6px rgba(0,0,0,0.25); /* ombre un peu plus forte */
 }
 
 /* Menu du bandeau */
@@ -351,6 +351,7 @@ footer {
 .top-menu a:hover {
     color: #E85CCF; /* fuchsia clair */
 }
+
 
 
 
