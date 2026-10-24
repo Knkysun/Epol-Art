@@ -22,16 +22,11 @@ body * {
     z-index: 1;
 }
 /* --- BANNIÈRE AU-DESSUS DU LOGO --- */
-
-.header-banniere {
+.img-banniere {
     width: 100%;
-    height: 280px; /* Ajuste la hauteur selon ton goût */
-    background-image: url("assets/images/banniere.jpg"); /* Mets ton image ici */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: auto;
+    display: block;
 }
-
 /* --- HEADER --- */
 
 header {
