@@ -310,6 +310,47 @@ footer {
     padding: 0;
     border-radius: 0;
 }
+/* --- BANDEAU SUPÉRIEUR PASTEL MARBRÉ --- */
+.top-bar {
+    background: linear-gradient(90deg,
+        #f7b7d2, /* rose pastel */
+        #c9a4e8, /* violet doux */
+        #a8d8f0, /* bleu ciel pastel */
+        #f6c9a1, /* pêche */
+        #b8e8c6  /* vert clair */
+    );
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+}
+
+/* Champ de recherche */
+.search-bar {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 240px;
+    background: #ffffff;
+    font-size: 14px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
+
+/* Menu du bandeau */
+.top-menu a {
+    margin-left: 20px;
+    color: #1A1A1A; /* noir métal */
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top-menu a:hover {
+    color: #E85CCF; /* fuchsia clair */
+}
 
 
 
