@@ -32,10 +32,10 @@ body * {
     background: rgba(0, 51, 102, 0.45); /* bleu profond translucide */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    padding: 120px 20px;
+    padding: 40px 20px;
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 0.25);
-    margin-top: -415px; /* espace sous la bannière */
+    margin-top: -420px; /* espace sous la bannière */
 }
 .logo-affiche {
     width: 360px;
