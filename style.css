@@ -370,7 +370,6 @@ footer {
     font-size: 17px;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.6); /* halo blanc lumineux */
 }
-
 .top-menu a:hover {
     color: #E85CCF; /* fuchsia clair */
 }
