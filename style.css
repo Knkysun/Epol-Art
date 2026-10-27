@@ -327,7 +327,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 10px solid rgba(255,255,255,0.3);
 }
 /* --- BANDEAU SUPÉRIEUR SOMBRE + LETTRES DORÉES --- */
 .top-bar {
