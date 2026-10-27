@@ -327,7 +327,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 10px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 /* --- BANDEAU SUPÉRIEUR SOMBRE + LETTRES DORÉES --- */
 .top-bar {
@@ -343,7 +343,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 10px solid rgba(255, 215, 0, 0.35); /* doré léger */
+    border-bottom: 40px solid rgba(255, 215, 0, 0.35); /* doré léger */
 }
 
 /* Champ de recherche */
@@ -360,7 +360,7 @@ footer {
 /* Menu du bandeau */
 .top-menu {
     display: flex;
-    gap: 35px; /* espace entre les cellules */
+    gap: 45px; /* espace entre les cellules */
 }
 
 .top-menu a {
