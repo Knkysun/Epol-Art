@@ -37,7 +37,7 @@ padding-left: 20px;
 padding-right: 20px;
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 0.25);
-    margin-top: -320px; /* espace sous la bannière */
+    margin-top: -220px; /* espace sous la bannière */
 }
 .logo-affiche {
     width: 360px;
