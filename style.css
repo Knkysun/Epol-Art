@@ -337,7 +337,7 @@ footer {
         #1b4f57, /* turquoise sombre */
         #4a1f3f  /* magenta nuit */
     );
-    padding: 40px 30px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -347,7 +347,7 @@ footer {
 
 /* Champ de recherche */
 .search-bar {
-    padding: 8px 14px;
+    padding: 8px 12px;
     border-radius: 20px;
     border: none;
     outline: none;
