@@ -111,7 +111,7 @@ padding-right: 20px;
     background: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 30px;
 }
 .domaines h2 {
