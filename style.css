@@ -342,7 +342,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 20px solid rgba(255, 215, 0, 0.35); /* doré léger */
+    border-bottom: 3px solid rgba(255, 215, 0, 0.35); /* doré léger */
 }
 
 /* Champ de recherche */
