@@ -337,7 +337,7 @@ footer {
         #1b4f57, /* turquoise sombre */
         #4a1f3f  /* magenta nuit */
     );
-    padding: 20px 30px;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
